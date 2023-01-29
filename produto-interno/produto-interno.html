@@ -10,36 +10,61 @@
 </head>
 
 <body>
-    <span>Início > Seção 1 > Seção 2 > Seção 3 > Seção Atual</span> <!-- parte para linkar o caminho até o produto, desde a homepage -->
+    <div class="span"><span>Início > Seção 1 > Seção 2 > Seção 3 > <strong>Seção Atual</strong></span></div> <!-- parte para linkar o caminho até o produto, desde a homepage -->
     <section class="section1">
         <div class="description">
-            <p>TITULO DO PRODUTO</p>
-            <p>DESCRIÇÃO SIMPLES DO PRODUTO, COM INFORMAÇOES PERTINENTES AO USUÁRIO</p>
-            <p>R$ 999,99</p>
-            <p>ou 12x de R$ 99,99</p>
-            <p>COR</p>
-            <p>TAMANHO</p>
-            <p>CALCULAR FRETE E PRAZO</p>
-            <p>Frete 1: 00 dias úteis, R$00,00</p>
-            <p>Frete 2: 00 dias úteis, R$00,00</p>
-            <p>Frete 3: 00 dias úteis, R$00,00</p>    
-            <p>Adicionar ao carrinho</p>
-            <p>Comprar agora</p>
+            <ul>
+                <li class="title"><strong>TITULO DO PRODUTO</strong></li>
+                <li class="simple-description">Descrição simples do produto, com informações pertinentes ao usuário</li>
+                <li class="price"><strong>R$ 999,99</strong></li>
+                <li class="price-divided">ou 12x de R$ 99,99</li>
+                <li class="color-text"><strong>COR</strong></li>
+                <li class="colours-buttons">
+                    <container class="colour1">1</container>
+                    <container class="colour2">2</container>
+                    <container class="colour3">3</container>
+                    <container class="colour4">4</container></li>
+                <li class="size-text"><strong>TAMANHO</strong></li>
+                <li class="size-buttons">
+                    <container class="size1">PP</container>
+                    <container class="size2">P</container>
+                    <container class="size3">M</container>
+                    <container class="size4">G</container>
+                    <container class="size5">GG</container>
+                    <container class="size6">XG</container></li>
+                <li class="rate-title">Avaliações</li>
+                <li class="shipping"><strong>Calcular frete e prazo</strong></li>
+                <form class="cep">
+                    <label for="CEP">CEP:
+                    <input name="CEP" id="CEP" required pattern="\d{5}-\d{3}"/>
+                    </label>
+                    <input type="submit" value="Enviar" />
+                    </form>
+                <li class="shipping-type">Frete 1: 00 dias úteis, R$00,00</li>
+                <li class="shipping-type">Frete 2: 00 dias úteis, R$00,00</li>
+                <li class="shipping-type">Frete 3: 00 dias úteis, R$00,00</li>
+                <input class="add-troller-button" type="button" value="    Adicionar ao carrinho">
+                <input class="buy-now-button" type="button" value="    Comprar agora">
+            </ul>
         </div><!-- informações do produto -->
 
         <div  class="container">
-            <img width="300px" src="./img/imagem1.webp" alt="Imagem do produto">
-            <img width="300px" src="./img/imagem1.webp" alt="Imagem do produto">
-            <img width="300px" src="./img/imagem1.webp" alt="Imagem do produto">
-            <img width="300px" src="./img/imagem1.webp" alt="Imagem do produto">    
+            <div class="foto1"><img width="230px" src="./img/imagem1.webp" alt="Imagem do produto"></div>
+            <div class="foto2"><img width="230px" src="./img/imagem1.webp" alt="Imagem do produto"></div>
+            <div class="foto3"><img width="230px" src="./img/imagem1.webp" alt="Imagem do produto"></div>
+            <div class="foto4"><img width="230px" src="./img/imagem1.webp" alt="Imagem do produto"></div>
         </div><!-- imagens de apresentação do produto, rolando as colunas de forma fixa (de 2 em 2 imagens) -->
         
         <div class="caroussel-img">
-            <ul class="teste">
-                <li>img 1</li>
-                <li>img 2</li>
-                <li>img 3</li>
-                <li>img 4</li>
+            <ul class="imgs">
+                <li class="img-mini"><img width="60px" border-radius="10px"  src="./img/imagem1.webp" alt="miniatura1"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura2"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura3"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura4"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura5"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura6"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura7"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura8"></li>
             </ul>
         </div> <!-- Imagens em miniatura das imagens maiores em apresentação tipo rolagem -->
     </section>
@@ -51,13 +76,15 @@
             <p>OUTRAS INFORMAÇÕES</p>
         </div>
         <div class="container-description">
-            <p> Título do Produto</p>
-            <p> Descrição detalhada do produto, etc, etc, etc</p>
+            <ul>
+                <li class="product-title"><strong>Título do Produto</strong></li>
+                <li class="product-details">Descrição detalhada do produto, etc, etc, etc</li>
+            </ul>
         </div>
     </section>
 
     <section class="section3">
-        <p> Este Produto combina com</p>
+        <p><strong>ESTE PRODUTO COMBINA COM</strong></p>
         <div class="product-sugestion">
             <div>CARD 1</div>
             <div>CARD 2</div>
@@ -67,11 +94,11 @@
     </section>
 
     <section class="section4">
-        <p>AVALIAÇÕES DO PRODUTO</p>
-        <p>Comentário 1</p>
-        <p>Comentário 2</p>
-
-
+        <div>
+            <p>AVALIAÇÕES DO PRODUTO</p>
+            <p>Comentário 1</p>
+            <p>Comentário 2</p>
+        </div>
     </section>
 
     
