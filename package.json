@@ -1,0 +1,29 @@
+{
+  "name": "stay-pop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "teste.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marco-seppe/stay-pop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marco-seppe/stay-pop/issues"
+  },
+  "homepage": "https://github.com/marco-seppe/stay-pop#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
