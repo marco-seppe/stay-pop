@@ -69,6 +69,7 @@ body {
     margin-bottom: 20px;
 }
 
+
 .colour1 {
     margin-right: 8px;
     border-width: 1px;
@@ -78,6 +79,11 @@ body {
     height: 20px;
     text-align: center;
     background-color: white;
+}
+
+.colour1:hover {
+    border-width: 2px;
+    cursor: pointer;
 }
 
 .colour2 {
@@ -91,6 +97,11 @@ body {
     background-color: black;
 }
 
+.colour2:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
 .colour3 {
     margin-right: 8px;
     border-width: 1px;
@@ -102,6 +113,11 @@ body {
     background-color: red;
 }
 
+.colour3:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
 .colour4 {
     margin-right: 8px;
     border-width: 1px;
@@ -111,6 +127,11 @@ body {
     height: 20px;
     text-align: center;
     background-color: blue;
+}
+
+.colour4:hover {
+    border-width: 2px;
+    cursor: pointer;
 }
 
 .size-text {
@@ -135,6 +156,11 @@ body {
     background-color: rgba(147, 5, 242, 0.1);
 }
 
+.size1:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
 .size2 {
     margin-right: 5px;
     border-width: 1px;
@@ -144,6 +170,11 @@ body {
     height: 20px;
     text-align: center;
     background-color: rgba(147, 5, 242, 0.1);
+}
+
+.size2:hover {
+    border-width: 2px;
+    cursor: pointer;
 }
 
 .size3 {
@@ -157,6 +188,11 @@ body {
     background-color: rgba(147, 5, 242, 0.1);
 }
 
+.size3:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
 .size4 {
     margin-right: 5px;
     border-width: 1px;
@@ -166,6 +202,11 @@ body {
     height: 20px;
     text-align: center;
     background-color: rgba(147, 5, 242, 0.1);
+}
+
+.size4:hover {
+    border-width: 2px;
+    cursor: pointer;
 }
 
 .size5 {
@@ -179,6 +220,11 @@ body {
     background-color: rgba(147, 5, 242, 0.1);
 }
 
+.size5:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
+
 .size6 {
     margin-right: 5px;
     border-width: 1px;
@@ -190,6 +236,10 @@ body {
     background-color: rgba(147, 5, 242, 0.1);
 }
 
+.size6:hover {
+    border-width: 2px;
+    cursor: pointer;
+}
 .rate-title {
     margin-bottom: 40px;
 }
@@ -224,7 +274,7 @@ body {
 
 .add-troller-button:hover {
     border-width: 2px;
-
+    cursor: pointer;
 }
 
 .buy-now-button {
@@ -241,6 +291,7 @@ body {
 
 .buy-now-button:hover {
     border-width: 2px;
+    cursor: pointer;
 }
 
 
@@ -279,10 +330,55 @@ li.img-mini {
 
 .description-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     font-size: 16px;
     max-width: 600px;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.product-detail-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(106, 106, 106, 0.5);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.product-detail-box:hover {
+    border-color: black;
+    transition-duration: 0.3s;
+    background-color:  rgba(255, 249, 132, 0.9);
+    cursor: pointer;
+}
+
+.brand-about-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(106, 106, 106, 0.5);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.brand-about-box:hover {
+    border-color: black;
+    transition-duration: 0.3s;
+    background-color:  rgba(255, 249, 132, 0.9);
+    cursor: pointer;
+}
+
+.other-info-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(106, 106, 106, 0.5);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.other-info-box:hover {
+    border-color: black;
+    transition-duration: 0.3s;
+    background-color:  rgba(255, 249, 132, 0.9);
+    cursor: pointer;
 }
 
 .container-description {
@@ -292,7 +388,7 @@ li.img-mini {
     border-bottom: 2px;
     border-style: solid;
     border-color: rgba(106, 106, 106, 0.5);
-    margin-top: 10px;
+    margin-top: 2px;
     margin-bottom: 20px;
 
 }
@@ -308,24 +404,59 @@ li.img-mini {
 
 }
 
-.product-sugestion {
+
+.product-sugestion-cards {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-around;
     margin-top: 50px;
 }
+.product-card {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(203, 203, 203, 0.7); 
+}
 
-.section3 {
-    border-bottom: 2px;
-    border-color: lightgreen;
+.product-card:hover{
+    border-width: 2px;
+    border-radius: 15px;
+    background-color:  rgba(203, 203, 203, 0.9);
+    transition-duration: 0.15s;
+    cursor: pointer;
+}
+
+
+.section4 {
+    display: flex;
+    margin-top: 50px;
+    border-top: 2px;
+    border-color: rgba(106, 106, 106, 0.5);
     border-style: solid;
 }
 
-.section4 {
-    border-top: 10px;
+.comments-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    
 }
 
+.comment-rating{
+    margin-top: 10px;
+    border-style: dashed;
+    border-color: rgba(106, 106, 106, 0.5);
+    border-width: 2px;
+}
 
 
 
