@@ -295,14 +295,6 @@ body {
 }
 
 
-.container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
-}
-
-
 .caroussel-img {
     display: flex;
     max-width: 500px;
@@ -321,10 +313,7 @@ li.img-mini {
     justify-content: space-between;
     border-style: solid;
     border-color: black;
-    border-width: 1px;
-    border-radius: 10px;
-
-    
+    border-width: 1px;    
 }
 
 
@@ -350,6 +339,7 @@ li.img-mini {
     background-color:  rgba(255, 249, 132, 0.9);
     cursor: pointer;
 }
+
 
 .brand-about-box {
     border-style: solid;
@@ -395,7 +385,9 @@ li.img-mini {
 
 .product-title {
     font-size: 16px;
+    font-weight: bold;
     margin-top: 20px;
+
 }
 
 .product-details{
