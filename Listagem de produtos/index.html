@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayPop</title>
+    
+    
+    <link rel="stylesheet" href="./css/global.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        
+    <link rel="stylesheet" href="./css/glider.min.css">
+
+    <link rel="stylesheet" href="./css/home.css">
+
+    <script src="./js/glider.min.js" defer></script>
+
+</head>
+<body>
+    <div class="menu-mobile">
+        <section>
+            <ul>
+                <li>
+                    <a href="/index.html">Home</a>
+                </li>
+    
+                <li>
+                    <a href="/index.html">Carrinho</a>
+                </li>
+    
+                <li>
+                    <a href="/login.html">Login</a>
+                </li>
+    
+                <li>
+                    <a href="#">Categoria 1</a>
+                </li>
+    
+                <li>
+                    <a href="#">Categoria 2</a>
+                </li>
+    
+                <li>
+                    <a href="#">Categoria 3</a>
+                </li>
+            </ul>
+    
+            <button id="menu-mobile--close">
+                <span class="material-symbols-outlined">
+                    close
+                </span>
+            </button>
+        </section>
+    </div>
+  
+
+    <header>
+       
+        <script src="./js/header.js" defer></script>
+     
+
+        <div class="container">
+            <div class="logo">
+                <a href="/index.html">
+                   <img src="/img/StayPOP.png" alt="">
+                </a>
+            </div>
+
+            <form id="search">
+                <input type="text" name="q" id="search" autocomplete="off" placeholder="Buscar produtos">
+                <button type="submit">
+                    <span class="material-symbols-outlined">
+                        search
+                    </span>
+                </button>
+
+            </form>
+
+            <div class="header--controls">
+                <a href="/login.html">
+                    <button title="Login">
+                        <span class="material-symbols-outlined">
+                            login
+                        </span>
+                    </button>
+                </a>
+
+                <a href="/carrinho.html" target="_blank">
+                    <button title="Carrinho">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </button>
+                </a>
+            </div>
+
+            <button id="menu-mobile--open" class="menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+        </div>
+    </header>
+    
+    <nav>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="">Camisas</a>
+                </li>
+    
+                <li>
+                    <a href="">Moletons</a>
+                </li>
+    
+                <li>
+                    <a href="">Funko</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <main class="container">
+        <section class="banner">
+            <div class="glider-contain">
+                <div class="glider">
+                  <div>
+                    <img src="https://www.ubuy.com.br/productimg/?image=aHR0cHM6Ly9pNS53YWxtYXJ0aW1hZ2VzLmNvbS9hc3IvOWRmMTVkMWQtZDc3Mi00YjIzLWJjZjktYTBlMzM2ZWVkZWI2LmZmYjVmZDIzYjk4YzJlZTk5NThlZWMxYTlhOWM0MmQzLnBuZw.jpg" alt=""> 
+                  </div>
+
+                  <div>
+                    <img src="https://img.irroba.com.br/fit-in/600x600/filters:fill(transparent):quality(95)/helpfull/catalog/moletom-zero-two-1.png" alt="">
+                  </div>
+
+                  <div>
+                    <img src="https://bugueishop.com.br/wp-content/uploads/2023/01/Front-43-6-370x492.png" alt="">
+                  </div>
+                </div>
+              
+                <button aria-label="Previous" class="glider-prev">«</button>
+                <button aria-label="Next" class="glider-next">»</button>
+                <div role="tablist" class="dots"></div>
+              </div>
+        </section>
+
+        <section class="products">
+            <article class="card-product">
+                <img src="/img/camisa.png" alt="">
+                <div>
+                    <span>Camiseta Dracarys</span>
+                    <h3>R$ 59,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card-product">
+                <img src="/img/camisa2.png" alt="">
+                <div>
+                    <span>Camiseta IT</span>
+                    <h3>R$ 59,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card-product">
+                <img src="/img/blusa.png" alt="">
+                <div>
+                    <span>Camiseta Berserk</span>
+                    <h3>R$ 59,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card-product">
+                <img src="/img/hp1.png" alt="">
+                <div>
+                    <span>Moletom Zero Two</span>
+                    <h3>R$ 109,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card-product">
+                <img src="/img/FunkoPopWednesday.png" alt="">
+                <div>
+                    <span>Funko- Wandinha</span>
+                    <h3>R$ 99,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+
+            <article class="card-product">
+                <img src="/img/FunkoPopAvatarNeytiri.png" alt="">
+                <div>
+                    <span>Funko Neytiri</span>
+                    <h3>R$ 99,00</h3>
+                </div>
+                <button>Comprar</button>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                <h4>Quem Somos</h4>
+                <ul>
+                    <li><a href="#">Institucional</a></li>
+                    <li><a href="#">Loja Segura</a></li>
+                    
+                </ul>
+                </div>
+            
+            <div class="footer-col">
+                <h4>Politicas</h4>
+                <ul>
+                    <li><a href="">Politicas de Privacidade</a></li>
+                    <li><a href=""> Trocas e Devoluções</a></li>
+                    <li><a href=""> Prazos e Entregas</a></li>
+                    <li><a href=""> Frete Gratis</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Duvidas</h4>
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Minha conta</a></li>
+                    <li><a href="">Pagamento</a></li>
+                    <li><a href="">Como comprar</a></li>
+                </ul>
+                
+            </div>
+                <div class="footer-col">
+                <h4>Siga-nos</h4>
+                <div class="social">
+               <a href=""><i class="fab fa-facebook-f"></i></a>
+               <a href=""><i class="fab fa-twitter"></i></a>
+               <a href=""><i class="fab fa-instagram"></i></a>
+               <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
