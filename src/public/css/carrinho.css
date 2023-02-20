@@ -1,45 +1,40 @@
-body{
-
+body {
     background-color: rgb(246, 226, 255);
 
 }
 
-header{
-    background-color: rgb(252, 252, 90);
-}
-
-.starpop img{
+.starpop img {
     margin-left: 100px;
     margin-top: 10px;
     font-size: xxxx-large;
-    
 }
 
-.categorias{
+.categorias {
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.oferta{
+.oferta {
     margin-left: 250px;
     margin-top: -34px;
 }
 
-.hist{
+.hist {
     margin-left: 500px;
     margin-top: -34px;
 }
 
-.contato{
+.contato {
     margin-left: 700px;
     margin-top: -34px;
 }
 
-.opcoes{
+.opcoes {
     align-items: center;
     text-align: center;
 }
-.starpop input{
+
+.starpop input {
     height: 30px;
     font-weight: bold;
     margin-left: 210px;
@@ -55,7 +50,12 @@ header{
 }
 
 
-.titulo-secao h1{
+.titulo-secao {
+    padding-top: 110px;
+
+}
+
+.titulo-secao h1 {
     text-align: center;
     color: blueviolet;
     font-size: 30px;
@@ -63,29 +63,29 @@ header{
 
 }
 
-.titulo-secao span{
+.titulo-secao span {
     color: blueviolet;
     margin-left: 730px;
     font-size: xxx-large;
-    
+
 }
 
 
 .products h1 {
-right: 100px;
-text-align:left;
-font-size: 15px;
-font-weight: bold;
-text-indent: 0; 
-margin-top: 0.83em;
-background-position: left 50px top;
+    right: 100px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 0;
+    margin-top: 0.83em;
+    background-position: left 50px top;
 }
 
 
-.card-products img{
+.card-products img {
     padding: 20px 20px 20px 20px;
-    max-width:250px;
-    max-height:200px;
+    max-width: 250px;
+    max-height: 200px;
     width: auto;
     height: auto;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ background-position: left 50px top;
     text-align: center;
 }
 
-.input-wrapper p{
+.input-wrapper p {
     font-weight: bold;
     color: grey;
     font-size: 25px;
@@ -116,7 +116,7 @@ background-position: left 50px top;
 }
 
 .carrossel h1 {
-    color:blueviolet;
+    color: blueviolet;
     text-transform: 120px;
     margin-top: 1px;
     font-weight: bold;
@@ -126,7 +126,7 @@ background-position: left 50px top;
 
 
 .carrossel h2 {
-    color:blueviolet;
+    color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
@@ -143,12 +143,10 @@ background-position: left 50px top;
     margin-left: 22px;
 }
 
-.carrossel div{
+.carrossel div {
     display: flex;
     gap: 1px;
     flex-wrap: wrap;
-    
-
 }
 
 .card-products {
@@ -163,7 +161,8 @@ background-position: left 50px top;
     width: 200px;
 }
 
-.card-products p, .card-products span {
+.card-products p,
+.card-products span {
     text-transform: uppercase;
     margin-left: 22px;
 }
@@ -173,19 +172,21 @@ background-position: left 50px top;
     font-weight: bold;
 }
 
-.div span{
+.div span {
     color: blueviolet;
 }
 
-.div{
+.div {
     display: flex;
 }
-.img{
+
+.img {
     width: 300px;
     margin-left: 100px;
     margin-top: 100px;
 }
-.txt{
+
+.txt {
     margin-left: 70px;
     margin-top: 100px;
 }
@@ -209,13 +210,13 @@ background-position: left 50px top;
     margin-left: 2500px;
 }
 
-.bolinha{
+.bolinha {
     margin-left: 5px;
     margin-top: 70px;
 
 }
 
-.rolar{
+.rolar {
     margin-right: -140px;
     margin-top: 70px;
     position: relative;
@@ -223,7 +224,7 @@ background-position: left 50px top;
 }
 
 .container h1 {
-    color:blueviolet;
+    color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
@@ -256,7 +257,7 @@ background-position: left 50px top;
     align-items: center;
 }
 
-.container p{
+.container p {
     color: blueviolet;
     margin-left: 30px;
     margin-top: 10px;
@@ -264,7 +265,7 @@ background-position: left 50px top;
 }
 
 .desconto h1 {
-    color:blueviolet;
+    color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
@@ -272,7 +273,7 @@ background-position: left 50px top;
     margin-left: 22px;
 }
 
-.desconto button{
+.desconto button {
     margin-left: 40px;
     background-color: blueviolet;
     font-weight: bold;
@@ -282,7 +283,7 @@ background-position: left 50px top;
     border-start-start-radius: 15px;
 }
 
-.desconto input{
+.desconto input {
     height: 30px;
     font-weight: bold;
     margin-left: 100px;
@@ -298,8 +299,8 @@ background-position: left 50px top;
     text-align: center;
 }
 
-.extrato h1{
-    color:blueviolet;
+.extrato h1 {
+    color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
@@ -307,14 +308,14 @@ background-position: left 50px top;
     margin-left: 22px;
 }
 
-.extrato p{
+.extrato p {
     font-weight: bold;
     margin-left: 50px;
     font-size: 22px;
     margin-top: 90px;
 }
 
-.extrato span{
+.extrato span {
     font-size: 22px;
     margin-left: 600px;
     font-weight: bold;
@@ -322,33 +323,33 @@ background-position: left 50px top;
 
 }
 
-.frete p{
+.frete p {
     font-weight: bold;
     margin-left: 50px;
     font-size: 22px;
 }
 
-.frete span{
+.frete span {
     font-size: 22px;
     margin-left: 653px;
     font-weight: bold;
     margin-top: 90px;
 }
 
-.total p{
+.total p {
     font-weight: bold;
     margin-left: 50px;
     font-size: 22px;
 }
 
-.total span{
+.total span {
     font-size: 22px;
     margin-left: 653px;
     font-weight: bold;
     margin-top: 90px;
 }
 
-.finalizar button{
+.finalizar button {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: yellow;
@@ -368,50 +369,39 @@ background-position: left 50px top;
 
 }
 
-
-footer{
-    background-color: blueviolet;
-}
-
-.fim h1{
-    color: black;
-}
-
-
-
 /* identificação */
 
-.primeira-impressao h1{
+.primeira-impressao h1 {
     text-align: center;
     color: blueviolet;
     font-weight: bold;
     font-size: 50px;
 }
 
-.primeira-impressao span{
+.primeira-impressao span {
     color: #ffda05;
     font-size: 300px;
     margin-left: 490px;
 }
 
-.cliente h1{
+.cliente h1 {
     color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
     font-size: 35px;
-    margin-left: 22px;  
+    margin-left: 22px;
 }
 
 
-.nome label{
+.nome label {
     font-weight: bold;
     font-size: 30px;
     margin-left: 100px;
     color: blueviolet;
 }
 
-.nome input{
+.nome input {
     font-size: 15px;
     font-weight: bold;
     margin-left: 20px;
@@ -424,7 +414,7 @@ footer{
     width: 800px;
 }
 
-.senha label{
+.senha label {
     font-weight: bold;
     font-size: 30px;
     margin-left: 100px;
@@ -432,7 +422,7 @@ footer{
     margin-top: 20px;
 }
 
-.senha input{
+.senha input {
     font-size: 15px;
     font-weight: bold;
     margin-left: 27px;
@@ -446,34 +436,34 @@ footer{
     margin-top: 20px;
 }
 
-.botao button{
-background-color: yellow;
-color: blueviolet;
-font-weight: bold;
-margin-top: 100px;
-margin-left: 600px;
-font-size: 30px;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-border-start-end-radius: 15px;
-border-start-start-radius: 15px;
+.botao button {
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-start-end-radius: 15px;
+    border-start-start-radius: 15px;
 }
 
 
-.separa{
+.separa {
     margin-left: 130px;
 }
 
-.nao-cliente h1{
+.nao-cliente h1 {
     color: blueviolet;
     text-transform: 120px;
     margin-top: 100px;
     font-weight: bold;
     font-size: 35px;
-    margin-left: 22px;  
+    margin-left: 22px;
 }
 
-.pass label{
+.pass label {
     font-weight: bold;
     font-size: 30px;
     margin-left: 100px;
@@ -482,7 +472,7 @@ border-start-start-radius: 15px;
 
 }
 
-.pass input{
+.pass input {
     font-size: 15px;
     font-weight: bold;
     margin-left: 27px;
@@ -496,15 +486,15 @@ border-start-start-radius: 15px;
     margin-top: 100px;
 }
 
-.but button{
-background-color: yellow;
-color: blueviolet;
-font-weight: bold;
-margin-top: 100px;
-margin-left: 600px;
-font-size: 30px;
-border-bottom-left-radius: 15px;
-border-bottom-right-radius: 15px;
-border-start-end-radius: 15px;
-border-start-start-radius: 15px;
+.but button {
+    background-color: yellow;
+    color: blueviolet;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-start-end-radius: 15px;
+    border-start-start-radius: 15px;
 }

@@ -1,0 +1,158 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+.pagina-principal{
+    background-color: rgba(147, 5, 242, 0.15);
+    min-height: 1000px;
+    margin: 50px;
+    margin-top: 150px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 30px;
+}
+
+
+.compra-realizada {
+    color: rgba(147, 5, 242, 1);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.numero-pedido {
+    color: rgba(147, 5, 242, 1);
+    text-align: center;
+    font-size: 200%;
+    padding-top: 5px;
+}
+
+.resumo-compra {
+    color:black;
+    text-align: center;
+    font-size: 200%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.card-produto-comprado{
+    background-color: rgba(217, 217, 217, 1);
+    width: 90%;
+    height: 90%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+
+.foto-produto{
+    padding: 5px;
+    margin: 10px;
+}
+
+.descrição-produto{
+    display:flex;
+    flex-grow: 2;
+    flex-direction: column;
+}
+
+.preço-total-card{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.nome-produto{
+    font-weight: bold;
+    font-size: 120%;
+    margin-top: 15px;
+}
+
+.preço-unitario{
+    font-size: 110%;
+}
+
+.tamanho{
+    font-size: 90%;
+}
+
+.cor{
+    font-size: 90%;
+}
+
+.quantidade{
+    font-size: 90%;
+    margin-bottom: 15px;
+}
+
+.preço-total{
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.resumo-valor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.det-ent-titulo{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.detalhes-entrega{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 105%;
+}
+
+.total-com-frete{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.det-pgto-tit{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.detalhes-pagamento{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: 400;
+    font-size: 105%;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StayPOP - Obrigado por comprar com a gente!</title>
+    <script src="../js/product.js"></script>
+    <link rel="stylesheet" href="./css/pedido-realizado.css">
+</head>
+
+<header>
+    <%- include('./header.ejs') %>
+</header>
+
+<body>
+    <div class="pagina-principal">
+        <div>
+            <p class="compra-realizada">Sua compra foi realizada com sucesso!</p>
+            <p class="numero-pedido">Nº do seu pedido: XXX-0724XTKKK38IJ</p>
+            <p class="resumo-compra">Resumo da sua compra:</p>
+        </div>
+        
+        <div class="card-produto-comprado">
+            <div class="foto-produto">
+                <img width="110px" src="./img/imagem1.webp" alt="Imagem do produto">
+            </div>
+
+            <div class="descrição-produto">
+                <p class="nome-produto">Camiseta HellFire Stranger Things</p>
+                <p class="preço-unitario">R$ 99,99</p>
+                <p class="tamanho">Tamanho GG</p>
+                <p class="cor">Branca</p>
+                <p class="quantidade">02 unidades</p>
+            </div>
+
+            <div class="preço-total-card">
+                <p class="preço-total">R$ 199,98</p>
+            </div>             
+        </div>
+
+        <div class="resumo-valor">
+            <p>Valor total dos produtos:</p>
+            <p>R$ 574,98</p>
+        </div>
+
+        <div class="det-ent-titulo">
+            <p>Detalhes da entrega</p>
+        </div>
+
+        <div class="detalhes-entrega">
+            <p>Endereço: Avenida Paulista, 1000 - Bairro Jardim Paulista - São Paulo / SP</p>
+            <p>CEP: 01331-000</p>
+            <p>Entrega em até 5 dias úteis</p>
+            <p>Valor: R$ 8,99</p>
+        </div>
+    
+        <div class="total-com-frete">
+            <p>Valor total do pedido:</p>
+            <p>R$ 583,97</p>
+        </div>
+
+        <div class="det-pgto-tit">
+            <p>Detalhe do pagamento</p>
+        </div>
+        
+        <div class="detalhes-pagamento">
+            <p>Cartão nº: XXXX-XXXX-XXXX-4532</p>
+            <p>Bandeira: VISA</p>
+            <p>Parcelas: 05 parcelas de R$ 116,79</p>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <%- include('./footer.ejs') %>
+</footer>
+
+</html>

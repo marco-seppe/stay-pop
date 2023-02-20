@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: whitesmoke;
+
+    /* margin-right: 50px; */
 }
 
 .container {
@@ -18,16 +15,11 @@ body {
     margin: 0 auto;
 }
 
-body a {
-    text-decoration: none;
-}
 
 header {
     width: 100%;
     background-color: #FFF64E;
     color: white;
-
-    padding: 16px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -41,9 +33,6 @@ header .container {
     color: white;
 }
 
-header .container .logo a, nav a {
-    color: inherit;
-}
 
 header .container form {
     background-color: white;
@@ -55,7 +44,6 @@ header .container form {
     justify-content: center;
     align-items: center;
     transition: .6s all;
-    
 }
 
 header .container form button {
@@ -75,9 +63,7 @@ header .container form:hover {
     align-items: center;
 }
 
-.active {
-    display: block;
-}
+
 
 header .container form.active:hover input[type="text"]:placeholder-shown {
     display: block;
@@ -186,105 +172,4 @@ header .container .menu {
 
 .menu-mobile #menu-mobile--close span {
     font-size: 32px;
-}
-
-nav {
-    width: 100%;
-    background-color: #9270de;
-    color: white;
-     margin-top: 30px;
-    display: flex;
-    padding: 20px;
-    position: fixed;
-    top: 80px;
-    z-index: 5;
-}
-
-nav .container ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    
-    gap: 18px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-nav .container ul li {
-    transition: .4s all;
-}
-
-nav .container ul li:hover {
-    font-size: 20px;
-    border-bottom: 3px solid yellow;
-}
-
-
-footer {
-    margin-top: 30px;
-    width: 100%;
-    background-color: #8D72E1;
-}
-
-
-
-h1::selection, h2::selection, h3::selection, span::selection, p::selection, li a::selection, footer .container::selection {
-    background-color: yellow;
-    color: black;
-}
-
-.btn-primary {
-    background-color: #8D72E1!important;
-    color: white!important;
-    border: none!important;
-    text-transform: lowercase;
-    transition: .6s all;
-}
-
-.btn-primary:hover {
-    background-color: #5d499c!important;
-    color: white!important;
-    border: none!important;
-}
-
-input[type="checkbox"]:checked {
-    background-color: #8D72E1!important;
-}
-
-
-@media (max-width: 768px) {
-    header .container form {
-        display: none;
-    }
-
-    header .container .header--controls {
-        display: none;
-    }
-
-    header .container ul {
-        display: none;
-    }
-
-    header .container .menu {
-        display: block;
-    }
-
-    header .container .menu span {
-        font-size: 32px;
-    }
-
-    nav {
-        display: none;
-        /* margin-top: 70px;
-        font-size: 16px;
-        padding: 15px; */
-    }
-
-}
-.slider{
-    margin: 0 auto;
-    width: 100px;
-    height: 200px;
-    overflow: hidden;
 }

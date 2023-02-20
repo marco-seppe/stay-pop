@@ -5,34 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Carrinho</title>
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-    <link rel="stylesheet" href="./assets/css/style.css">
+        
 </head>
 
 <body>
-    <header class="starpop">
-        <div>
-            <img src="./assets/img/StayPOP.png">
-            <label for="search"></label>
-            <input type="text" nome="name" id="nome" placeholder=" O que você está procurando?">
-            <div class="opcoes">
-            <p class="categorias"> Categorias </p>
-            <p class="oferta"> Ofertas do dia </h2>
-            <p class="hist"> Histórico </h3>
-            <p class="contato"> Contato </h4>
-            </div>
-        </div>
-
-        <div>
-               
-            
-        </div>
+    <header>
+        <%- include('./header.ejs') %>
     </header>
 
     <section class="titulo-secao">
@@ -43,7 +24,7 @@
     </section>
 
     <div class="div">
-        <img class="img" img src="./assets/img/moletom-estampa.jpg" alt="">
+        <img class="img" img src="./img/moletom-estampa.jpg" alt="">
         <div class="txt">
         <p class=""> NOME DO PRODUTO ESCOLHIDO </p>
            <span class="txt1">Descrição do Protudo.</span>   
@@ -67,43 +48,41 @@
 <section class="carrossel">
     <h2>Aproveite também!</h2>
     <div>
-
         <article class="rolar">
-            <img src="./assets/img/Ellipse 10.png">
+            <img src="./img/Ellipse 10.png">
         </article>
 
         <article class="card-products">
-            <img src="./assets/img/moletom-estampa.jpg" alt="">
+            <img src="./img/moletom-estampa.jpg" alt="">
             <h1>Nome do produto</h1>
             <p>Descrição do produto</p>
             <span>100,00</span>
         </article>
 
         <article class="card-products">
-            <img src="./assets/img/moletom-estampa.jpg" alt="">
+            <img src="./img/moletom-estampa.jpg" alt="">
             <h1>Nome do produto</h1>
             <p>Descrição do produto</p>
             <span>100,00</span>
         </article>
 
         <article class="card-products">
-            <img src="./assets/img/moletom-estampa.jpg" alt="">
+            <img src="./img/moletom-estampa.jpg" alt="">
             <h1>Nome do produto</h1>
             <p>Descrição do produto</p>
             <span>100,00</span>
         </article>
 
         <article class="card-products">
-            <img src="./assets/img/moletom-estampa.jpg" alt="">
+            <img src="./img/moletom-estampa.jpg" alt="">
             <h1>Nome do produto</h1>
             <p>Descrição do produto</p>
             <span>100,00</span>
         </article>
 
         <article class="bolinha">
-            <img src="./assets/img/Ellipse 10.png">
+            <img src="./img/Ellipse 10.png">
         </article>
-
     </div>
 
     <main class="container">
@@ -135,7 +114,7 @@
 <section class="extrato">
     <h1> Descrição de seu carrinho! </h1>
     <article class="linha"> 
-        <img src="./assets/img/Line 27.png" alt=""> 
+        <img src="./img/Line 27.png" alt=""> 
     </article>
     <div class="quantidade">
         <p> X produtos </p>
@@ -147,7 +126,7 @@
         <span> R$ 00,00</span>
     </div>
     <article class="linha1">
-        <img src="./assets/img/Line 28.png" alt="">
+        <img src="./img/Line 28.png" alt="">
     </article>
     <div class="total">
         <p> Total </p>
@@ -159,21 +138,10 @@
     <button type="submit" form="finalizar"> Finalizar compra </button>
 </div>
 
+
 <footer>
-    <div class="fim">
-        <h1> Intens da página </h1>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-        <p>Itens da página</p>
-    </div>
+    <%- include('./footer.ejs') %>
 </footer>
-
-
-
 
 </body>
 </html>

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StayPOP - Produto</title>
-    <script src="produto-interno.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    
-    
+    <script src="../js/product.js"></script>
+    <link rel="stylesheet" href="./css/product.css">
 </head>
+
+<header>
+    <%- include('./header.ejs') %>
+</header>
 
 <body>
     <div class="span"><span>Início > Seção 1 > Seção 2 > Seção 3 > <strong>Seção Atual</strong></span></div> <!-- parte para linkar o caminho até o produto, desde a homepage -->
@@ -60,7 +62,7 @@
 
         <div class="caroussel-img">
             <ul class="imgs">
-                <li class="img-mini"><img width="55px" border-radius="10px"  src="./img/imagem1.webp" alt="miniatura1"></li>
+                <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura1"></li>
                 <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura2"></li>
                 <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura3"></li>
                 <li class="img-mini"><img width="60px" src="./img/imagem1.webp" alt="miniatura4"></li>
@@ -149,11 +151,11 @@
         </div>
     </section>
 
-    
+    <footer>
+        <%- include('./footer.ejs') %>
+    </footer>
 
 </body>
-
-
 
 </html>
 

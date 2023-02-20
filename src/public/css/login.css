@@ -25,11 +25,6 @@ main {
     font-weight: 600;
 }
 
-.form-login form a {
-    /* text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden; */
-}
 
 .form-login a:hover {
     color: black!important;

@@ -5,38 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StayPop</title>
-    
-    
     <link rel="stylesheet" href="./css/global.css">
-    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        
     <link rel="stylesheet" href="./css/glider.min.css">
-
-    <link rel="stylesheet" href="./css/home.css">
-
+    <link rel="stylesheet" href="./css/index.css">
     <script src="./js/glider.min.js" defer></script>
-
 </head>
 <body>
+    <header>
+        <%- include('./header.ejs') %>
+    </header>
+
     <div class="menu-mobile">
         <section>
             <ul>
                 <li>
-                    <a href="/index.html">Home</a>
+                    <a href="/index.ejs">Home</a>
                 </li>
     
                 <li>
-                    <a href="/index.html">Carrinho</a>
+                    <a href="/carrinho.ejs">Carrinho</a>
                 </li>
     
                 <li>
-                    <a href="/login.html">Login</a>
+                    <a href="/login.ejs">Login</a>
                 </li>
     
                 <li>
@@ -60,54 +57,6 @@
         </section>
     </div>
   
-
-    <header>
-       
-        <script src="./js/header.js" defer></script>
-     
-
-        <div class="container">
-            <div class="logo">
-                <a href="/index.html">
-                   <img src="/img/StayPOP.png" alt="">
-                </a>
-            </div>
-
-            <form id="search">
-                <input type="text" name="q" id="search" autocomplete="off" placeholder="Buscar produtos">
-                <button type="submit">
-                    <span class="material-symbols-outlined">
-                        search
-                    </span>
-                </button>
-
-            </form>
-
-            <div class="header--controls">
-                <a href="/login.html">
-                    <button title="Login">
-                        <span class="material-symbols-outlined">
-                            login
-                        </span>
-                    </button>
-                </a>
-
-                <a href="/carrinho.html" target="_blank">
-                    <button title="Carrinho">
-                        <span class="material-symbols-outlined">
-                            shopping_cart
-                        </span>
-                    </button>
-                </a>
-            </div>
-
-            <button id="menu-mobile--open" class="menu">
-                <span class="material-symbols-outlined">
-                    menu
-                </span>
-            </button>
-        </div>
-    </header>
     
     <nav>
         <div class="container">
@@ -207,48 +156,8 @@
             </article>
         </section>
     </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col">
-                <h4>Quem Somos</h4>
-                <ul>
-                    <li><a href="#">Institucional</a></li>
-                    <li><a href="#">Loja Segura</a></li>
-                    
-                </ul>
-                </div>
-            
-            <div class="footer-col">
-                <h4>Politicas</h4>
-                <ul>
-                    <li><a href="">Politicas de Privacidade</a></li>
-                    <li><a href=""> Trocas e Devoluções</a></li>
-                    <li><a href=""> Prazos e Entregas</a></li>
-                    <li><a href=""> Frete Gratis</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Duvidas</h4>
-                <ul>
-                    <li><a href="">FAQ</a></li>
-                    <li><a href="">Minha conta</a></li>
-                    <li><a href="">Pagamento</a></li>
-                    <li><a href="">Como comprar</a></li>
-                </ul>
-                
-            </div>
-                <div class="footer-col">
-                <h4>Siga-nos</h4>
-                <div class="social">
-               <a href=""><i class="fab fa-facebook-f"></i></a>
-               <a href=""><i class="fab fa-twitter"></i></a>
-               <a href=""><i class="fab fa-instagram"></i></a>
-               <a href=""><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-            </div>
-        </div>
+    <footer>
+        <%- include('./footer.ejs') %>
     </footer>
 </body>
 </html>

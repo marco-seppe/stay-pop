@@ -2,17 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
-	font-family: 'Poppins', sans-serif;}
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.footer{
+	margin-top: 20px;
+}
+
 .container{
     max-width: 1170px;
-    margin: auto;
-    
+    margin: auto;    
 }
 
 .row{
