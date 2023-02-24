@@ -20,6 +20,7 @@
     "config-chain": "^1.1.13",
     "d": "^1.0.1",
     "denque": "^2.1.0",
+    "dotenv": "^16.0.3",
     "dottie": "^2.0.3",
     "editorconfig": "^0.15.3",
     "ejs": "^3.1.8",

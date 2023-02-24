@@ -26,6 +26,11 @@ const HomeController = {
         return res.render('pedido-realizado');
     },
 
+    showListaDeProdutosPage: (req, res) => {
+        return res.render('lista-de-produtos');
+    },
+
+
 }
 
 

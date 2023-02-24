@@ -1,0 +1,64 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+    .section3{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    .titulo-produtos{
+        font-weight: bold;
+        font-size: 150%;
+        text-align: center;
+    }
+    
+    .product-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 20px;
+    
+    }
+    
+    .product-details{
+        font-size: 14px;
+        margin-top: 8px;
+    
+    }
+    
+    
+    .product-sugestion-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .product-card {
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 10px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        background-color: rgba(203, 203, 203, 0.7); 
+    }
+    
+    .product-card:hover{
+        border-width: 2px;
+        border-radius: 15px;
+        background-color:  rgba(203, 203, 203, 0.9);
+        transition-duration: 0.15s;
+        cursor: pointer;
+    }

@@ -10,6 +10,7 @@ router.get('/finalize-seu-pedido', HomeController.showFinalizePedido);
 router.get('/login', HomeController.showLogin);
 router.get('/product', HomeController.showProductPage);
 router.get('/pedido-realizado', HomeController.showPedidoRealizado);
+router.get('/lista-de-produtos', HomeController.showListaDeProdutosPage);
 
 
 
