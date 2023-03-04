@@ -7,9 +7,9 @@ body {
 
 
 #userdata {            
-    background-image: linear-gradient(to bottom right, rgb(124, 2, 108), rgb(250, 245, 248));
-    background-color: rgba(234, 10, 255, 0.363); 
-    width: 1000px;
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.808), rgb(236, 235, 235)); 
+    border: 10px solid #9305F2;
+    width: 986px;
     margin: 20px auto;
     display: flex;
     flex-direction: column;
@@ -189,14 +189,15 @@ height: 80px;
 .input
 {
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
     box-shadow: 1px 1px 2px #fcf5f5;
     -moz-box-shadow: 1px 1px 2px #ffffff;
     -webkit-box-shadow: 1px 1px 2px #fcf1f1;
     background: whitesmoke;
-    border: 1px solid #ffffff;
-    width: 200px
+    border: 1px solid #000000;
+    width: 200px;
+    height: 45px
 }
 
 .info
