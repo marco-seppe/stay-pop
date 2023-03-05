@@ -156,9 +156,9 @@ height: 120px;
     justify-content:baseline;
     align-items:baseline;
     border: 5px solid #69676749;
-    width: 190%;
-    height: 170px;
-    top: 20px;
+    width: 50%;
+    height: 30px;
+    border-top: 20px;
 
     gap: 2px;
 }
