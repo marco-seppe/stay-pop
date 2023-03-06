@@ -508,3 +508,45 @@ border-bottom-right-radius: 15px;
 border-start-end-radius: 15px;
 border-start-start-radius: 15px;
 }
+
+.produtos-staypop h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 30px;
+}
+
+.usuario h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+    background-position: 20;
+}
+.produtos h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.cadastro h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.dashbord h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.pedidos h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+}
+
+.clientes h1{
+    color: aliceblue;
+    background-color: blueviolet;
+    font-size: 20px;
+}
